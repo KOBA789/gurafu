@@ -1,0 +1,10 @@
+[package]
+name = "gurafu"
+version = "0.1.0"
+authors = ["Hidekazu Kobayashi <kobahide789@gmail.com>"]
+
+[dependencies]
+rocksdb = { git = "https://github.com/KOBA789/rust-rocksdb", branch = "iterator_opt" }
+serde = "1.0.66"
+serde_derive = "1.0.66"
+bincode = "1.0.0"
